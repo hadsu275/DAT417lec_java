@@ -1,5 +1,6 @@
 import Search.binarySearch;
 import Search.linearSearch;
+import Sort.insertionSort;
 
 public static void main(String[] args) {
     /*
@@ -25,5 +26,9 @@ public static void main(String[] args) {
 
     // it is fot sort test ******************************************************************
 
+    int arr[] = { 12, 11, 13, 5, 6 };
+    insertionSort ins = new insertionSort(arr);
+    ins.insert();
+    ins.print(arr);
 
 }
